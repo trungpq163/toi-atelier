@@ -1,0 +1,174 @@
+/* Margin */
+.content .content-left {
+    margin-top: 50px;
+}
+
+.content .content-left .breadcrumb,
+.content .content-left .product {
+    margin-bottom: 40px;
+}
+
+.content .content-left .product_intro .icon img,
+.content .content-left .product_details__dropdown .title {
+    margin-right: 20px;
+}
+
+.product_intro .thumbnail img {
+    margin: 68px 82px;
+}
+
+.content .content-right {
+    margin-top: 100px;
+}
+
+.content {
+    margin-bottom: 150px;
+}
+
+/* Flex-center */
+.content .content-right .leather_type .item .thumbnail,
+.content .content-right .leather_type .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-left .breadcrumb {
+    font-family: "Graphik-Normal", sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #1f1f1f;
+    line-height: 20px;
+}
+
+.content .content-left .breadcrumb .active {
+    color: #b6b6b6;
+}
+
+.content .content-left .product .title {
+    font-family: "Bauer Bodoni Std 1", sans-serif;
+    font-size: 31px;
+}
+
+.content .content-left .product_intro {
+    position: relative;
+}
+
+.content .content-left .product_intro .icon {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.content .content-left .product_details__dropdown {
+    display: flex;
+}
+
+.content .content-right .filter select {
+    width: 425px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #1f1f1f;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../assets/images/next.svg");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+}
+
+.content .content-right .title {
+    font-family: "Bauer Bodoni Std 1", sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.content .content-right .leather_price {
+    font-family: "Graphik-Normal";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content .content-right .leather_type,
+.content .content-right .leather_color {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 480px;
+}
+
+.content .content-right .leather_type .item {
+    width: 120px;
+    height: 90px;
+    color: white;
+    flex: 1 0 21%;
+    border: 1px solid white;
+}
+
+.content .content-right .leather_type .item:hover,
+.content .content-right .leather_type .active {
+    border: 1px solid #bdaa66;
+}
+
+.content .content-right .leather_type .item .thumbnail {
+    background: url("../assets/images/tumbled.svg");
+    width: 100px;
+    height: 70px;
+}
+
+.content .content-right .leather_color .circle-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-right .leather_color .item:hover .circle-container,
+.content .content-right .leather_color .active {
+    border: 1px solid #c6b67e;
+}
+
+.content .content-right .leather_color .circle-container .circle {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.content .content-right .leather_color .product-title {
+    border: none;
+}
+
+.content .content-right .leather_color .product-title {
+    opacity: 0;
+}
+
+.content .content-right .leather_color .active,
+.content .content-right .leather_color .item:hover .product-title {
+    opacity: 100;
+}
+
+.content .content-right .filter select {
+    padding-left: 23px;
+}

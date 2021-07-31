@@ -1,0 +1,29 @@
+html {
+    font-family: "Graphik-Normal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+.header,
+.content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.footer .left {
+    margin-left: 70px;
+}
+
+.footer .right {
+    margin-right: 70px;
+}
+
+.footer .right,
+.content .content-right {
+    margin-left: 60px;
+}

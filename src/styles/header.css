@@ -1,0 +1,70 @@
+.left-header,
+.right-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-header {
+    justify-content: right;
+    align-items: center;
+}
+
+.right-header .item {
+    cursor: pointer;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    padding: 25px 0;
+    font-family: "Graphik-Light", sans-serif;
+}
+
+.header .center-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .item .menu-title {
+    padding-bottom: 6.81px;
+    padding-top: 6.81px;
+}
+
+.header .item .menu-title:hover,
+.header .item .menu-title:focus,
+.header .item .menu-title:active,
+.header .item .active {
+    padding-bottom: 5.81px;
+    padding-top: 6.81px;
+    border-bottom: 1px solid #1f1f1f;
+}
+
+.header .left-header .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .left-header .item .title {
+    margin-left: 6px;
+}
+
+.header .left-header .item .icon {
+    margin-left: 20px;
+}
+
+.right-header .item {
+    margin-left: 30px;
+}
+
+.header .active-background {
+    display: flex;
+    align-items: center;
+    height: 33.9px;
+    background: #f9f9f9;
+    border-radius: 100px;
+    padding: 2px 7px 2px 7px;
+    margin-left: 20px;
+}
