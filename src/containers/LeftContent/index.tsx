@@ -1,5 +1,5 @@
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
-import Product from "../../components/Product/Product";
+import Breadcrumb from "../Breadcrumb";
+import Product from "../../components/Product";
 
 import productThumbnail from "../../assets/images/product_thumbnail.svg";
 import next from "../../assets/images/next.svg";

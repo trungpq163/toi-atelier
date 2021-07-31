@@ -1,4 +1,4 @@
-import HeaderItem from "../../components/HeaderItem/HeaderItem";
+import HeaderItem from "../../components/HeaderItem";
 
 import glope from "../../assets/images/glope.svg";
 import user from "../../assets/images/user.svg";

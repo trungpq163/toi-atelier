@@ -1,4 +1,4 @@
-import BreadcrumbChild from "../../components/BreadcrumbChild/BreadcrumbChild";
+import BreadcrumbChild from "../../components/BreadcrumbChild";
 
 const Breadcrumb = () => {
     return (

@@ -114,6 +114,10 @@
     width: 480px;
 }
 
+.content .content-right .leather_color {
+    width: 400px;
+}
+
 .content .content-right .leather_type .item {
     width: 120px;
     height: 90px;
