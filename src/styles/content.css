@@ -48,6 +48,10 @@
     color: #b6b6b6;
 }
 
+.content .content-left .breadcrumb .breadcrumb_child {
+    cursor: pointer;
+}
+
 .content .content-left .product .title {
     font-family: "Bauer Bodoni Std 1", sans-serif;
     font-size: 31px;
