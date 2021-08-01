@@ -29,6 +29,7 @@
 .header .item .menu-title {
     padding-bottom: 6.81px;
     padding-top: 6.81px;
+    cursor: pointer;
 }
 
 .header .item .menu-title:hover,
@@ -45,6 +46,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .header .left-header .item .title {

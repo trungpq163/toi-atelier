@@ -16,6 +16,7 @@
     color: white;
 
     font-size: 14px;
+    cursor: pointer;
 }
 
 .footer .right,
@@ -80,6 +81,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.category_sub--item .icon {
+    cursor: pointer;
 }
 
 .footer .product_price {

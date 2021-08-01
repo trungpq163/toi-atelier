@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .content .content-left .breadcrumb {
@@ -146,6 +147,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content .content-right .leather_color .item {
+    cursor: pointer;
 }
 
 .content .content-right .leather_color .item:hover .circle-container,
